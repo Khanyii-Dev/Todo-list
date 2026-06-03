@@ -1,5 +1,5 @@
 document.getElementById('add-btn').addEventListener('click', function() {
-    const input = document.getElementById('todo-input');
+    const input = document.getElementById('task-input');
     const task = input.value.trim();
     
     if (task !== '') {
